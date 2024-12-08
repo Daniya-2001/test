@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  }
+  .section {
+    margin: 0 auto; /* Centers the section */
+    padding: 0; /* Removes unwanted inner space */
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    overflow-x: hidden
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* home */
+#main{
+    margin-top:15%;
+}
+.home h2{
+    margin-top: -29px;
+    /* margin-left: -20px; */
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+.top-img {
+    display: block; 
+    margin-left:37%; 
+    width: 100px; 
+    height: auto; 
+   
+   
+  }
+.home span{
+    color:rgb(180, 42, 181,1);
+    text-decoration: underline; 
+    text-decoration-style: wavy; 
+    text-decoration-color:rgba(253, 212, 0, 1); 
+    
+}
+
+.home p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(red, green, blue);
+   
+}
+
+.discover {
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+   
+    /* margin-left: -20px; */
+}
+.discover span{
+  text-decoration: none;
+}
+
+   
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    background-color:rgb(180, 42, 181,1) ; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+      
+.circle img {
+    width: 40%; 
+    height: auto; 
+}
+      
+.text {
+    font-size: 14px; 
+    font-weight: 600;
+    line-height: 14px;
+    color: #333; 
+    
+ }
+ .skill{
+    position: absolute;
+    top: 5%;
+    left: 71%;
+    width: 285px; 
+    height: 292px; 
+    background-color: rgba(56, 138, 124, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 10px 10px; 
+    
+   
+ }
+ .skill h6, .skill p{
+    color: rgba(255, 255, 255, 1);
+ }
+ .skill h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px;
+ }
+ .skill p{
+    font-size:13px;
+    font-weight: 400;
+    margin: 10px;
+ }
+.guidence{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 218px; 
+    height: 237px; 
+    background-color: rgba(52, 74, 193, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 15px 10px; 
+    color:  rgba(255, 255, 255, 1);
+    z-index: 1;
+}
+
+.guidence h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+   
+}
+.guidence p{
+    font-size: 13px;
+    font-weight: 400;
+    margin:10px 0 ;
+    
+}
+.decision{
+    position: absolute;
+    top: 63%;
+    left: 71%;
+    width: 250px; 
+    height: 250px; 
+    background-color: rgba(21, 21, 23, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 15px 10px; 
+    color:  rgba(255, 255, 255, 1);
+}
+.decision h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.decision p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.yellow{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+.curl{
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    z-index: -2; 
+    width: 40px; 
+    height: 45px; 
+    
+}
+.rose{
+    position: absolute;
+    top: 66%;
+    right: 25px;
+}
+.much{
+  margin-top: 20%;
+  background-color:rgb(231, 233, 248,1);
+  height: auto;
+  width: 100%;
+  
+}
+.enjoy{
+  padding-top: 70px;
+}
+.enjoy h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.enjoy span{
+  color:rgb(180, 42, 181,1);
+  text-decoration: underline; 
+  text-decoration-style: wavy; 
+  text-decoration-color:rgba(253, 212, 0, 1); 
+  
+}
+.enjoy p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: rgb(red, green, blue);
+}
+.certificate{
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+}
+.certificate span{
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.card{
+  margin-top: 70px;
+  color: white;
+  text-align: center;
+  width: 245px;
+  height: 350px;
+  background: linear-gradient(rgba(52, 74, 193, 1), rgba(180, 42, 181, 1));
+  
+}
+.card span{
+  font-size: 40px;
+  font-weight: 700;
+  padding-top:27px;
+}
+.card p{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* .card button{
+   border:1px solid rgba(253, 212, 0, 0.57) ;
+   width: 50px;
+   height: 20px;
+} */
+.off button{
+  border:1px solid rgba(253, 212, 0, 0.57) ;
+  width: 64px;
+  height: 25px;
+  border-radius:9px;
+  font-size: 13px;
+  padding: 3px;
+  color: rgba(253, 212, 0, 0.57);
+  font-weight:400;
+
+ }
+ 
+.card h6{
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 5px !important;
+ }
+ 
+.dotted-line {
+  width: 100%; 
+  height: 4px; 
+  background: repeating-linear-gradient(
+      to right,
+      rgba(231, 233, 248, 0.776) 2px, 
+      rgba(231, 233, 248, 0.776) 10px, 
+      transparent 4px,
+      transparent 16px 
+  );
+  border-radius: 10px; 
+  margin: 65px 0; 
+  font-size: 27px;
+  position: relative;
+}
+.dotted-line::before,
+.dotted-line::after {
+    content: ''; 
+    position: absolute;
+    width: 17px; 
+    height: 20px; 
+    background-color:rgb(231, 233, 248,1); 
+    border-radius:50%; 
+    margin-left:-5px;
+    margin-right: -5px;
+}
+
+.dotted-line::before {
+   
+    left:-2px; 
+    margin-top:-7px;
+   
+}
+
+.dotted-line::after {
+    right: -2px; 
+    margin-top:-7px;
+}
+
+
+/* mobile */
+
+
+
+
+
+ 
+@media (max-width:1023px){
+
+  .home h2{
+    font-size:40px;
+    
+  }
+  .home p{
+    font-size: 10px;
+   
+  }
+  
+  .top-img{
+    margin-left:55%;
+    width: 40px;
+  }
+  .skill{
+   
+   
+    top: 5%;
+    left: 70%;
+    width: 225px; 
+    height: 220px; 
+  }
+  .skill p{
+    font-size: 10px;
+  } 
+ 
+  .decision{
+   
+    top: 47%;
+    left: 71%;
+    width: 200px; 
+    height: 200px;
+  }
+  .decision P{
+    font-size: 10px;
+  }
+  .guidence{
+    top: 39%;
+    left: 46%;
+    width: 180px; 
+    height: 195px;
+  }
+  .guidence p{
+    font-size: 10px;
+  } 
+  .yellow,.rose,.curl{
+    display: none;
+
+  }
+  /* second section */
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+
+  .col-7, .col-5 {
+    width: 48%; 
+    margin-bottom: 20px; 
+  }
+  .much{
+    margin-top: 20%;
+  }
+  .enjoy {
+    text-align: left; 
+  }
+
+  .card {
+    max-width: 48%; 
+    margin-bottom: 20px;
+  }
+
+}
+@media(min-width:1025){
+  .skill{
+    position: absolute;
+    top: 5%;
+    left: 71%;
+    width: 285px; 
+    height: 292px; 
+    background-color: rgba(56, 138, 124, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 10px 10px; 
+    
+   
+ }
+ .skill h6, .skill p{
+    color: rgba(255, 255, 255, 1);
+ }
+ .skill h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px;
+ }
+ .skill p{
+    font-size:13px;
+    font-weight: 400;
+    margin: 10px;
+ }
+.guidence{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 218px; 
+    height: 237px; 
+    background-color: rgba(52, 74, 193, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 15px 10px; 
+    color:  rgba(255, 255, 255, 1);
+    z-index: 1;
+}
+
+.guidence h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+   
+}
+.guidence p{
+    font-size: 13px;
+    font-weight: 400;
+    margin:10px 0 ;
+    
+}
+.decision{
+    position: absolute;
+    top: 63%;
+    left: 71%;
+    width: 250px; 
+    height: 250px; 
+    background-color: rgba(21, 21, 23, 1); 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 15px 10px; 
+    color:  rgba(255, 255, 255, 1);
+}
+.decision h6{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.decision p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.yellow{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+.curl{
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    z-index: -2; 
+    width: 40px; 
+    height: 45px; 
+    
+}
+.rose{
+    position: absolute;
+    top: 66%;
+    right: 25px;
+}
+
+}
+@media (max-width:767px){
+  
+  .home{
+    display:block;
+    justify-content: center;
+  }
+
+  .home h2{
+   
+    text-align: center;
+    font-size:37px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .top-img{
+    display: none;
+  }
+  .home p{
+    text-align: center;
+    font-size:10px;
+  }
+
+  .discover{
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .discover span{
+    font-size: 14px;
+  }
+  #main{
+    padding: 0;
+    width: 100%;
+  }
+  
+  .skill, .guidence, .decision {
+      position: static; 
+      width: 100%;
+      height: auto; 
+      margin: 15px auto;
+     
+  }
+
+  .yellow, .curl, .rose {
+      display: none;
+  }
+
+  .skill img, .guidence img, .decision img {
+    width: 15%; 
+    height: auto;
+    margin: 0 auto; 
+    display: block;
+}
+
+  .skill h6, .guidence h6, .decision h6 {
+      text-align: center; 
+      font-size:22px;
+  }
+
+.skill p, .guidence p, .decision p{
+  text-align: center;
+  font-size: 11px;
+}
+.much{
+  background-color:rgb(231, 233, 248,1);
+}
+
+.row {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.col-7, .col-5 {
+  width: 100%; 
+  margin-bottom:10px; 
+  height:100%;
+  max-width: 200px;
+ 
+}
+
+.enjoy {
+  text-align: center; 
+}
+
+.card {
+  max-width: 100%; 
+  margin-bottom: 20px;
+}
+.enjoy h2{
+  font-size:30px;
+  font-weight:600;
+  line-height: 45px;
+}
+.enjoy span{
+  color:rgb(180, 42, 181,1);
+  text-decoration: underline; 
+  text-decoration-style: wavy; 
+  text-decoration-color:rgba(253, 212, 0, 1); 
+  
+}
+.enjoy p{
+  font-size: 11px;
+  line-height: 13px;
+  color: rgb(red, green, blue);
+}
+.certificate{
+  display: flex;
+  justify-content: center;
+
+}
+.card{
+  margin-top:15px;
+  width: 100%;
+  height: 100%;
+ 
+ 
+}
+.card span,.card p{
+  font-size: 15px;
+
+}
+.card h6{
+   margin-top: -20px;
+   font-size: 15px;
+  
+   
+}
+
+.certificate img{
+  width: 50px;
+  height: 50px;
+}
+
+}
+
+   
